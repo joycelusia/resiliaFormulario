@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+#logo {
+  align-items: left;
+}
+#titulo {
+  margin-left: 10%;
+  color: #2f2e2e;
+  font-family: Arial, Helvetica, sans-serif;
+  display: inline-block;
+}
+
+body {
+  margin-top: 1%;
+  justify-content: left;
+  background-color: white;
+}
+leftSection {
+  background-size: cover;
+  overflow: hidden;
+}
+.ilust {
+  height: 500px;
+  float: left;
+}
+.formContainer {
+  max-width: 300px;
+  background-color: #ffffffbb;
+  padding: 20px;
+  float: right;
+  border-radius: 1.5px;
+}
+input {
+  width: 170px;
+  height: 20px;
+  padding: 0.2em;
+  border: 1px solid #fad000;
+  box-shadow: 2px 2px 2px;
+  display: inline-block;
+}
+input,
+button {
+  border-radius: 5px;
+}
+
+label {
+  margin-bottom: 0.2em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 5px;
+  margin: 2px;
+  display: block;
+}
+
+input:focus {
+  background: #fdf39c;
+}
+
+.botao {
+  font-size: 1.2em;
+  border: 0;
+  margin: 1em;
+  color: rgb(134, 133, 129);
+  padding: 0.2em 0.6em;
+  box-shadow: 2px 2px 2px (0, 0, 0, 0.2);
+  text-shadow: 1px 1px 1px (0, 0, 0, 0.5);
+  position: relative;
+  top: 70%;
+  left: inherit;
+}
+
+.botao:hover {
+  background: #fad000;
+  box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
