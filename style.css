@@ -5,11 +5,17 @@
 #logo {
   align-items: left;
 }
+header{
+  display: flex;
+}
+
 #titulo {
+  margin:revert;
   margin-left: 10%;
   color: #2f2e2e;
   font-family: Arial, Helvetica, sans-serif;
-  display: inline-block;
+  display: flex;
+  flex-direction: flex-end;
 }
 
 body {
@@ -28,13 +34,12 @@ leftSection {
 .formContainer {
   max-width: 300px;
   background-color: #ffffffbb;
-  padding: 20px;
   float: right;
   border-radius: 1.5px;
 }
 input {
-  width: 170px;
-  height: 20px;
+  width: 200px;
+  height: 24px;
   padding: 0.2em;
   border: 1px solid #fad000;
   box-shadow: 2px 2px 2px;
